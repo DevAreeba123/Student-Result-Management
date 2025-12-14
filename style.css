@@ -167,11 +167,9 @@ thead th {
 tbody tr:nth-child(even) {
   background: #fdf6ef;
 }
-
 tbody tr:nth-child(odd) {
   background: #ffffff;
-}
-
+ }
 tbody td {
   padding: 6px 6px;
   border-bottom: 1px solid #f0e0d3;
@@ -247,3 +245,4 @@ tbody td {
   }
 
 }
+
