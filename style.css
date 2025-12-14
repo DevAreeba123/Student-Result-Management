@@ -67,7 +67,7 @@ h1 {
   color: #2c1810;
 }
 .form-group input:focus {
-  online: none;
+  outline: none;
   border-color: #c45b4e;
   background: #fffaf4;
 }
@@ -245,4 +245,5 @@ tbody td {
   tbody td {
     font-size: 0.8rem;
   }
+
 }
