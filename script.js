@@ -51,7 +51,7 @@ function handleFormSubmit(event) {
   let grade = getGrade(percentage);
 
   if (editingId === null) {
-    // Naya student
+    // New student
     let student = {
       id: Date.now().toString(),
       name: name,
@@ -202,4 +202,5 @@ document.addEventListener("DOMContentLoaded", function () {
   document
     .getElementById("searchInput")
     .addEventListener("input", handleSearch);
+
 });
